@@ -1,0 +1,51 @@
+M 3
+N 5
+P 9
+MaxBuffSize 5
+SplitSize 3
+NumProducer 2
+NumConsumer 3
+MaxProducerSleepTime 20
+MaxConsumerSleepTime 80
+#
+
+Everything Beyond this pound sign is a comment
+
+Here are a few test configurations you can copy and paste.
+Otherwise, feel free to edit above and try your own.
+
+Test Case 1:  Different size M and P
+
+M 3
+N 5
+P 9
+MaxBuffSize 5
+SplitSize 3
+NumProducer 2
+NumConsumer 3
+MaxProducerSleepTime 20
+MaxConsumerSleepTime 80
+
+Test Case 2:  Different size M and P and even split size
+
+M 3
+N 5
+P 9
+MaxBuffSize 5
+SplitSize 2
+NumProducer 2
+NumConsumer 3
+MaxProducerSleepTime 20
+MaxConsumerSleepTime 80
+
+Test Case 3:  Larger Buffer Size
+
+M 10
+N 20
+P 15
+MaxBuffSize 10
+SplitSize 2
+NumProducer 2
+NumConsumer 3
+MaxProducerSleepTime 20
+MaxConsumerSleepTime 80
