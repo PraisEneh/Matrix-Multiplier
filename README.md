@@ -1,5 +1,3 @@
-Here's a README in markdown format for the Java project based on the provided code and old README:
-
 # Matrix Multiplier
 
 ## Description
